@@ -162,14 +162,14 @@ get_header();
         <!-- BOX 3-->
         <div class="col-12 col-lg-4 box3">
             <span class="darkTitle hideOnMobile title-min-height" style="font-family: National-Bold !important;">Contacto</span>
-            <iframe width="100%" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="square hideOnMobile" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDHna7sLBJj7jib8VPe3u9BABXcSGcpRIY&q=<?php echo urlencode( $supplier->get_the_map_location() ) ?>"></iframe>
+            <iframe width="100%" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="square hideOnMobile" src="https://www.google.com/maps/embed/v1/place?key=xxxxxxxxxxxxxxxxxxxxx&q=<?php echo urlencode( $supplier->get_the_map_location() ) ?>"></iframe>
             <span class="darkSubTitle direccion">Dirección</span>
             <div class="textContainer" style="margin-top: 10px;">
                 <span>
                     <?php $supplier->the_address() ?>
                 </span>
             </div>
-            <iframe width="100%" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="square hideOnDesk mt-3" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDHna7sLBJj7jib8VPe3u9BABXcSGcpRIY&q=<?php echo urlencode( $supplier->get_the_map_location() ) ?>"></iframe>
+            <iframe width="100%" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="square hideOnDesk mt-3" src="https://www.google.com/maps/embed/v1/place?key=xxxxxxxxxxxxxxxxxxxxx&q=<?php echo urlencode( $supplier->get_the_map_location() ) ?>"></iframe>
             <div class="centered-div">
                 <div class="switch_box box_1">
                     <table width="100%">
